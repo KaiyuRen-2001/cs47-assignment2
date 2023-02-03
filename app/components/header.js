@@ -24,17 +24,14 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 32,
     fontFamily: "SydneyBold",
-    paddingLeft: 80,
-    paddingRight: 80,
   },
   header: {
     flexDirection: "row",
     flex: 1, 
-    //paddingLeft: 30,
-    justifyContent: "center",
+    justifyContent: "space-between",
     alignItems: "center",
     width : "80%",
-    marginBottom: "40%"
+    //marginBottom: "20%"
   },
 });
 

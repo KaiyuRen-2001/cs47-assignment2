@@ -41,20 +41,21 @@ const Body = () => {
 
 const styles = StyleSheet.create({
   profileImg: {
-    /*
+    
     height: undefined,
     width: "95%",
     borderRadius: 20,
     aspectRatio: 1 / 1.05,
     padding: 8,
     justifyContent: "space-between",
-    marginBottom: "25%",
+    //marginBottom: "30%",
     marginLeft: "8%"
-    */
+    
+   /*
     height: windowHeight * 0.45,
     width: windowWidth * 0.8,
     resizeMode: "contain",
-    
+    */
   },
   imageStyle: {
     borderRadius: 8,
@@ -99,37 +100,44 @@ const styles = StyleSheet.create({
     fontFamily: "Sydney",
     left: "8%",
     bottom: "8%",
-    marginBottom: "16%",
+    marginBottom: "70%",
   },
 
   bodyBox: {
     //flexDirection: "row",
     //paddingLeft: 30,
-    justifyContent: "center",
+    //justifyContent: "center",
     alignItems: "center",
     shadowColor: Themes.light.shadows.shadowColor,
     shadowOpacity: Themes.light.shadows.shadowOpacity,
     shadowRadius: Themes.light.shadows.shadowRadius,
     shadowOffset: Themes.light.shadows.shadowOffset,
-    marginBottom: "3%",
+    marginTop: "10%",
   },
   audioBox: {
     flexDirection: "row",
-    //paddingLeft: 30,
+    padding: "20%",
     justifyContent: "center",
     alignItems: "center",
     borderRadius: 20,
     backgroundColor: Themes.light.bg,
+    elevation: 2, 
+    width: "100%",
+    /*
     shadowColor: Themes.light.shadows.shadowColor,
     shadowOpacity: Themes.light.shadows.shadowOpacity,
     shadowRadius: Themes.light.shadows.shadowRadius,
     shadowOffset: Themes.light.shadows.shadowOffset,
+    width : "80%",
+    */
+    //marginBottom: "50%"
   },
   audioIconsBox: {
     flexDirection: "row",
     //paddingLeft: 30,
     justifyContent: "center",
     alignItems: "center",
+    marginBottom: "30%"
   },
 });
 
