@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
   profileImg: {
     
     height: undefined,
-    width: "95%",
+    width: "90%",
     borderRadius: 20,
     aspectRatio: 1 / 1.05,
     padding: 8,
@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
     height: windowWidth * 0.15,
     width: windowWidth * 0.15,
     paddingRight: 40,
-    marginTop: "10%",
+    marginTop: "5%",
   },
   audiowaveImg: {
     marginBottom: "5%",
@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
     fontFamily: "Sydney",
     left: "8%",
     bottom: "8%",
-    marginBottom: "70%",
+    marginBottom: "80%",
   },
 
   bodyBox: {
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     shadowOpacity: Themes.light.shadows.shadowOpacity,
     shadowRadius: Themes.light.shadows.shadowRadius,
     shadowOffset: Themes.light.shadows.shadowOffset,
-    marginTop: "10%",
+    marginTop: "20%",
   },
   audioBox: {
     flexDirection: "row",
@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
     //paddingLeft: 30,
     justifyContent: "center",
     alignItems: "center",
-    marginBottom: "30%"
+    marginBottom: "40%"
   },
 });
 
